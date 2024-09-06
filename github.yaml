@@ -6,6 +6,7 @@ on:
       - "main"
     paths:
       - "**"  # Monitorea todos los archivos y directorios en la raíz
+      - "github.yaml"  # Incluye el archivo de workflow en la raíz
 
 jobs:
   build-and-push:
